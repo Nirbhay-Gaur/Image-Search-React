@@ -14,7 +14,7 @@ class Search extends Component {
     onTextChange = e => {
         const value = e.target.value;
         this.setState({ [e.target.name]: value }, () => {
-            if (value === '') {
+            if (value === null) {
                 this.setState({ images: [] });
             } else {
                 axios.get(
