@@ -1,0 +1,31 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-family: "Italianno", cursive !important;
+  padding: 1% 0;
+}
+
+.paper {
+  align-self: center;
+  padding: 10px;
+}
+
+.inputfield {
+  width: 300px;
+  height: 20px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 5rem !important;
+    padding: 5% 0;
+  }
+  .inputfield {
+    width: 250px !important;
+  }
+}
