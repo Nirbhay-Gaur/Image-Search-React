@@ -11,7 +11,7 @@ import ImageResults from "./ImageResults";
 
 import styles from "./SearchBar.module.css";
 
-const apiKey = "EdR3a23EbF_zQVg4Mm4Hj0bJ7GaSUVqKt09CbGqfctA";
+const apiKey = process.env.REACT_APP_API_KEY;
 
 function SearchBar() {
   const [textChange, setTextChange] = useState("");
